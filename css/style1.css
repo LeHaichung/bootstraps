@@ -1,0 +1,157 @@
+header {
+  background-image: url(../images/anh1.png);
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 15px 20px;
+}
+
+header ul li a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.advan {
+  padding: 50px 0;
+}
+
+.advan .title {
+  text-align: center;
+}
+
+.advan .title h2 {
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.advan .title h2 span {
+  color: green;
+}
+
+.advan .title p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.advan .col {
+  text-align: center;
+}
+
+.advan .col h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.advan .col p {
+  color: #ccc;
+}
+
+.about {
+  background-color: cornsilk;
+}
+
+.about .abouttitle {
+  text-align: center;
+}
+
+.about .abouttitle h2 {
+  color: black;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.about .abouttitle span {
+  color: green;
+}
+
+.about .buttom {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.about .buttom a {
+  background-color: orange;
+  color: black;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.services {
+  padding: 50px 0;
+}
+
+.services .title {
+  text-align: center;
+}
+
+.services .title h2 {
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.services .title h2 span {
+  color: green;
+}
+
+.services .title p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.services .border {
+  width: 150px;
+  height: 200px;
+  background-color: #ccc;
+  margin: 20px;
+  text-align: center;
+}
+
+.services .border .font_size {
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.services .border span {
+  color: green;
+}
+
+.fortfolio {
+  background-color: #e7eee7;
+  height: 500px;
+}
+
+.fortfolio .menu_bootom {
+  text-align: center;
+}
+
+.fortfolio h2 {
+  color: black;
+}
+
+.fortfolio a {
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.process {
+  background-color: white;
+}
+/*# sourceMappingURL=style1.css.map */

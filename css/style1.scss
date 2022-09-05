@@ -1,0 +1,142 @@
+
+
+
+header {
+    background-image: url(../images/anh1.png);
+   
+    ul {
+        margin: 0;
+        padding: 0;
+        float: right;
+        li {
+            display: inline-block;
+            padding: 15px 20px;
+            a {
+                color: black;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
+        
+    }
+}
+
+
+
+.advan {
+    padding: 50px 0;
+    .title {
+        text-align: center;
+        h2 {
+            font-size: 40px;
+            color: black;
+            text-transform: uppercase;
+
+            span {
+                color: green;
+            }
+        }
+        p {
+            font-size: 16px;
+            color: #ccc;
+        }
+    }
+    .col {
+        text-align: center;
+        h3 {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        p {
+            color: #ccc;
+        }
+    }
+}
+.about{
+ background-color: cornsilk;
+   .abouttitle{
+    text-align: center;
+    h2{
+        color: black;
+        font-size:40px ;
+        text-transform: uppercase;
+    }
+    span{
+        color: green;
+    }
+    }
+    .buttom{
+        text-align: center;
+        font-size: 18px;
+        color:white;
+        a {
+            background-color: orange;
+            color:black;
+            display: inline-block;
+            padding: 10px 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    }
+}
+.services{
+    padding: 50px 0;
+    .title {
+        text-align: center;
+        h2 {
+            font-size: 40px;
+            color: black;
+            text-transform: uppercase;
+
+            span {
+                color: green;
+            }
+        }
+        p {
+            font-size: 16px;
+            color: #ccc;
+        }
+    }
+.border{
+    width: 150px;
+    height: 200px;
+    background-color: #ccc;
+    margin: 20px;
+    text-align: center;
+    
+    .font_size{
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    span{
+        color: green;
+    }
+    
+       }
+
+}
+.fortfolio{
+    background-color: rgb(231, 238, 231);
+    height: 500px;
+    .menu_bootom{
+        text-align: center;
+    }
+    h2{
+        color: black;
+    }
+    a{
+        color: black;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+.process{
+background-color: white;
+
+
+}
+
