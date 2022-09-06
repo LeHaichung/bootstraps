@@ -7,7 +7,7 @@ header {
 }
 
 header .logo {
-  background-color: #FFD700;
+  background-color: #ffd700;
   border-style: solid;
   height: auto;
   margin-top: 15px;
@@ -29,7 +29,7 @@ header .slider {
   width: 100%;
   height: 18vw;
   color: azure;
-  background-color: #FFD700;
+  background-color: #ffd700;
   margin: 0 auto;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -63,7 +63,6 @@ header ul li a {
 .advan {
   padding: 50px 0;
   background-color: black;
-  position: relative;
   width: 100%;
   height: 40vw;
 }
@@ -76,12 +75,13 @@ header ul li a {
 .advan .title {
   position: relative;
   color: white;
-  padding-left: 10vh;
+  padding-left: 3vw;
+  height: 6vw;
 }
 
 .advan .title .unit-what {
   border-style: none;
-  background-color: #FFD700;
+  background-color: #ffd700;
   width: 50vw;
   height: 12vw;
   overflow: visible;
@@ -106,14 +106,14 @@ header ul li a {
 
 .services .font_size {
   font-size: 30px;
-  color: #FFD700;
+  color: #ffd700;
 }
 
 .pizzaria {
   background-image: url(../images/anh3.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 55vw;
 }
 
 .pizzaria .text-menu {
@@ -123,18 +123,52 @@ header ul li a {
 
 .pizzaria .border-size {
   padding: 100px 0px 100px 100px;
-  height: 65vh;
+  height: 35vw;
 }
 
 .pizzaria .border-size .text {
   font-size: 2vw;
 }
 
+.about {
+  margin: 0 auto;
+  width: 100%;
+  height: 20vw;
+}
+
+.about .text {
+  padding-top: 3vw;
+  text-align: center;
+  opacity: 1.8;
+  font-size: 2vw;
+}
+
+.about .text span {
+  font-weight: bolder;
+}
+
+.about ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about ul li {
+  float: left;
+  font-size: 1.5vw;
+  margin-left: 2vw;
+  color: white;
+}
+
 .images-3 {
   background-image: url(../images/anh4.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 130vh;
+  height: 60vw;
 }
 
 .images-3 .text-master {
@@ -151,7 +185,7 @@ header ul li a {
   border-style: nones;
   position: absolute;
   width: 15vw;
-  height: 76vw;
+  height: 85vw;
   margin-left: 20vw;
 }
 
@@ -181,10 +215,8 @@ header ul li a {
           align-items: stretch;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
-  padding: 3vw;
-  min-width: 320px;
-  height: 480px;
-  margin: auto;
+  width: 100%;
+  height: 30vw;
 }
 
 .fortfolio .containerflex .flexitem {
