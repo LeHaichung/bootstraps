@@ -139,7 +139,6 @@ header ul li a {
 .about .text {
   padding-top: 3vw;
   text-align: center;
-  opacity: 1.8;
   font-size: 2vw;
 }
 
@@ -185,7 +184,7 @@ header ul li a {
   border-style: nones;
   position: absolute;
   width: 15vw;
-  height: 85vw;
+  height: 76vw;
   margin-left: 20vw;
 }
 
