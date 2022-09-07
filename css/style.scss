@@ -154,12 +154,12 @@ header {
 
 .fortfolio {
   width: 100%;
-  height: 45vw;
+  height: 48vw;
   .unit {
     border-style: nones;
     position: absolute;
     width: 15vw;
-    height: 73vw;
+    height: 48vw;
     margin-left: 20vw;
   }
   .text-gallery {
@@ -168,34 +168,40 @@ header {
     margin-top: 120px;
     margin-left: 2vw;
   }
-  .containerflex {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-items: stretch;
-    align-content: stretch;
+  ul{
     width: 100%;
-    height: 30vw;
-    .flexitem {
-      padding: 0px;
-      background: lightblue;
-      margin: 1px;
-      font-weight: bold;
+    margin-bottom: 0.5vw;
+    position: absolute;
+    li{
+      text-decoration: none;
+      float: left;
+      height:33vw ;
     }
   }
 }
 
 .contact {
+  position: relative;
   width: 100%;
+  height:35vw;
   background-color: #696969;
+
+  .unit {
+    margin-top: 0vw;
+    border-style: none;
+    position: absolute;
+    width: 15vw;
+    height: 35vw;
+    margin-left: 20vw;
+  }
+  
   i {
     color: white;
     font-size: 3vw;
   }
   .text-contact {
-    padding: 50px 0;
+    position: relative;
+    padding: 4vw 0;
     font-size: 3vw;
     font-weight: bold;
     text-align: center;
@@ -204,7 +210,7 @@ header {
     font-size: 1.25vw;
     float: right;
     position: relative;
-    line-height: 30px;
+    line-height: 3vw;
   }
   .text-link {
     font-size: 2.25vw;
